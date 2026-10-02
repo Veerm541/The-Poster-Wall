@@ -18,7 +18,7 @@ A live, shared community message board — pin a note, see everyone else's land 
 poster-wall/
 ├── poster-wall.html     # the whole app — markup, CSS, and JS
 ├── config.js            # Supabase
-
+```
 
 ## Tech
 
