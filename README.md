@@ -1,6 +1,6 @@
 # The Poster Wall 📌
 
-A live, shared community message board — pin a note, see everyone else's land in real time. No framework, no build step, just HTML/CSS/JS backed by Supabase.
+A live, shared community message board — pin a note, see everyone else's land in real time. No framework, just JS built with Vite backed by Supabase.
 
 ## Website Check it out
 https://freedom-wall-pin.onrender.com/
@@ -13,14 +13,18 @@ https://freedom-wall-pin.onrender.com/
 - Shuffle toggle, pin-burst animation, live/preview status indicator
 - Falls back to a local-only preview mode if Supabase isn't configured
 
-## Project structure
+
+## Setup
 
 ```
-poster-wall/
-├── poster-wall.html     # the whole app — markup, CSS, and JS
-├── config.js            # Supabase
+npm install
+cp .env.example .env     # then fill in your keys
+npm run dev              # local dev server
+npm run build            # outputs to dist/
 ```
+
+On Render: create a **Static Site**, build command `npm install && npm run build`, publish directory `dist`, and add the three `VITE_*` variables under Environment.
 
 ## Tech
 
-Vanilla HTML/CSS/JS, [Supabase](https://supabase.com) (Postgres + Realtime), [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) via Google Fonts.
+Vanilla JS + [Vite](https://vitejs.dev), [Supabase](https://supabase.com) (Postgres + Realtime), [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) via Google Fonts.

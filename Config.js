@@ -1,3 +1,0 @@
-const SUPABASE_URL = 'https://twkzqujgulnqboeljfjq.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InR3a3pxdWpndWxucWJvZWxqZmpxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA5MjU3ODYsImV4cCI6MjEwNjUwMTc4Nn0.f4X4NX-N3teZ4MFLuKVkHmC6CMgElKzu_IIS5kK2wE8';
-const GIPHY_API_KEY = 'KZ5jkkrT7sqCO8kNJKCFeS29oC027Sl6';
