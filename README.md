@@ -17,10 +17,7 @@ A live, shared community message board — pin a note, see everyone else's land 
 ```
 poster-wall/
 ├── poster-wall.html     # the whole app — markup, CSS, and JS
-├── config.js            # your Supabase URL + key (not committed as a template — fill in and commit for real)
-├── config.example.js    # template to copy from
-└── .gitignore           # excludes .env, for if you add a secret key later
-```
+├── config.js            # Supabase
 
 
 ## Tech
