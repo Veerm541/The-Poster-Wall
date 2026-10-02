@@ -3,6 +3,7 @@
 A live, shared community message board — pin a note, see everyone else's land in real time. No framework, no build step, just HTML/CSS/JS backed by Supabase.
 
 ## Website Check it out
+https://freedom-wall-pin.onrender.com/
 
 ## Features
 
